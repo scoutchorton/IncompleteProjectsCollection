@@ -1,0 +1,32 @@
+template.cblk
+.cblk -> Connections BLocK file
+{
+"module":"Module Name",
+"Category":{
+	"Block Name":{
+		"input":{"variableType":"defaultValue","varaibleType2":"defaultValue2"},
+		"output":{"variableType":"defaultValue","varaibleType2":"defaultValue2"}
+	},
+	"Block Name2":{
+		"input":{"variableType":"defaultValue","varaibleType2":"defaultValue2"},
+		"output":{"variableType":"defaultValue","varaibleType2":"defaultValue2"}
+	},
+},
+"Category2":{
+	"Block Name":{
+		"input":{"variableType":"defaultValue","varaibleType2":"defaultValue2"},
+		"output":{"variableType":"defaultValue","varaibleType2":"defaultValue2"}
+	},
+	"Block Name2":{
+		"input":{"variableType":"defaultValue","varaibleType2":"defaultValue2"},
+		"output":{"variableType":"defaultValue","varaibleType2":"defaultValue2"}
+	},
+},
+}
+
+  *  All names should be listed as would be displayed.
+  *  Removable not listed, because core modules will be in a list that cannot be modified (or shouldn't). This makes it so that people can't make their own modules perminant.
+  *  Indentation will be removed/ignored by program
+  *  Input & output pins will be listed in order listed. No sorting, so the developer can assign that (or be lazy and not let it be that way :P).
+
+

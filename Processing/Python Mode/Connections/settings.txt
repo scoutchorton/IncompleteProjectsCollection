@@ -1,0 +1,1 @@
+{"backgroundColor":color(0, 0, 0), "bgLineColor":color(255, 255, 255, 100), "unitDist":125, "pos":[600, 350]}

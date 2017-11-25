@@ -1,0 +1,46 @@
+{
+"mapName":"Test Map",
+"mapDesc":"Test map for using with updates and stuff",
+"start":"Hall",
+"Hall":{
+    "d":"This is the main hall of the house",
+    "i":[],
+    "n":"N Hall",
+    "s":False,
+    "e":False,
+    "w":False,
+    "up":"Balcony",
+    "down":False,
+    "nw":False,
+    "ne":False,
+    "se":False,
+    "sw":False
+},
+"N Hall":{
+    "d":"North of the main hall",
+    "i":[],
+    "n":False,
+    "s":"Hall",
+    "e":False,
+    "w":False,
+    "up":False,
+    "down":False,
+    "nw":False,
+    "ne":False,
+    "se":False,
+    "sw":False
+},
+"Balcony":{
+    "d":"Balcony above main hall",
+    "i":[],
+    "n":False,
+    "s":False,
+    "e":False,
+    "w":False,
+    "up":False,
+    "down":"Hall",
+    "nw":False,
+    "ne":False,
+    "se":False,
+    "sw":False
+}}

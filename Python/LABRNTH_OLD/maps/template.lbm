@@ -1,0 +1,46 @@
+{
+"mapName":"Template Map",
+"mapDesc":"Template map for making other maps and also just for testing",
+"start":"roomname",
+"roomname":{
+    "d":"Description of room",
+    "i":["item#1", "droppeditem#1", "item#2"],
+    "n":"room to the north",
+    "s":False,
+    "e":False,
+    "w":False,
+    "u":"room up",
+    "d":False,
+    "nw":False,
+    "ne":False,
+    "se":False,
+    "sw":False
+},
+    "N Hall":{
+    "d":"North of the main hall",
+    "i":[],
+    "n":False,
+    "s":"Hall",
+    "e":False,
+    "w":False,
+    "u":False,
+    "d":False,
+    "nw":False,
+    "ne":False,
+    "se":False,
+    "sw":False
+},
+    "Balcony":{
+    "d":"Balcony above main hall",
+    "i":[],
+    "n":False,
+    "s":False,
+    "e":False,
+    "w":False,
+    "u":False,
+    "d":"Hall",
+    "nw":False,
+    "ne":False,
+    "se":False,
+    "sw":False
+}}

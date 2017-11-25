@@ -1,0 +1,23 @@
+{
+"module":"Python",
+"Variables":{
+	"Integer":{
+		"input":{},
+		"output":{"":""}},
+	"Float":{
+		"input":{},
+		"output":{"":""}},
+	"String":{
+		"input":{},
+		"output":{"":""}},
+	"Boolean":{
+		"input":{},
+		"output":{"":""}},
+	"Array":{
+		"input":{},
+		"output":{"":""}},
+	"Dictionary":{
+		"input":{},
+		"output":{"":""}
+	}
+}

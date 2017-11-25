@@ -1,0 +1,8 @@
+cmd: "/home/scoutchorton/.processing.py/processing-py.sh"
+args:
+  - "{FILE_ACTIVE}"
+cwd: "{FILE_ACTIVE_PATH}"
+sh: false
+name: "Processing.py - Run"
+keymap: "alt-shift"
+atomCommandName: "Processing.py: Run"

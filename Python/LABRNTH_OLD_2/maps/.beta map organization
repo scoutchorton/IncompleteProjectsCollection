@@ -1,0 +1,53 @@
+#Python
+var = {"room":["description","roomsub":["description"],"roomsub2":["description"],"roomsub3":["description"]],"room2":["description","room2sub":["description"],"room2sub2":["description"],"room2sub3":["description"]]}
+
+#JSON
+mapvar = {"room":{"description":"This is a room description","north":False,"south":False,"east":False,"west":False,"up":False,"down":"require item","northwest":False,"northeast":False,"southeast":False,"southwest":False},"room2":{"description":"This is a room description","north":False,"south":False,"east":False,"west":False,"up":False,"down":[False, "item"],"northwest":False,"northeast":False,"southeast":False,"southwest":False}}
+
+#Example JSON
+#*If direction is False, game throws message like 'You can't go there'
+#*If item required, game throws message like 'You need the items: lorem ipsum'
+mapvar = 
+{"Hall":
+
+{"description":"This is the main hall of the house",
+"items":[],
+"north":"N Hall",
+"south":False,
+"east":False,
+"west":False,
+"up": "Balcony",
+"down":False,
+"northwest":False,
+"northeast":False,
+"southeast":False,
+"southwest":False},
+
+"N Hall":
+
+{"description":"North of the main hall",
+"north":False,
+"south":"Hall",
+"east":False,
+"west":False,
+"up":False,
+"down":False,
+"northwest":False,
+"northeast":False,
+"southeast":False,
+"southwest":False},
+
+"Balcony":
+
+{"description":"North of the main hall",
+"items":[],
+"north":False,
+"south":False,
+"east":False,
+"west":False,
+"up":False,
+"down":"Hall",
+"northwest":False,
+"northeast":False,
+"southeast":False,
+"southwest":False}}

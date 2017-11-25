@@ -1,0 +1,8 @@
+template.cprjt
+.cprjt -> Connections PRoJecT file
+{
+	blockID:["blockType", xPos, yPos, ["outputPinToBlockId:pinNumber"]]
+}
+
+  *  blockID's are numbers given to specify what block they are. This should be given in order of when the block is placed. For example, the first block placed would have an ID of 0001, second would be 0002, etc.
+  *  Output pins would be directed to a specific block (hence the need for block IDs), and would be directed to a specific pin.
